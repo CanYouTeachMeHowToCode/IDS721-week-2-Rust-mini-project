@@ -1,4 +1,4 @@
-/* A library for Basic Calculator */
+/* library for Roman Integer Converter */
 
 /* build a function that takes in a string that represents a mathematical expression
 that contains numbers (fit in 32-bit integers) and '+', '-', '*', and '/' symbols
