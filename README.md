@@ -17,7 +17,7 @@ A Integer-to-Roman-Integer converter that takes in an Integer and return a Roman
 
 ## Week 4
 
-A Integer-to-Roman-Integer converter that takes in an Integer and return a Roman Integer (e.g. it will convert 19 to 'XIX')
+A longest palidromic substring finder that takes in an string and returns its longest substring such that the substring is also a palindrome. 
 
 ### Usage
-> Run `cargo run -- integer-to-roman -i [num]` to get the Roman Integer representation of the input number [num]. `num` is `i32` type; e.g. the output of running command `cargo run -- integer-to-roman -i 19` is `XIX`, and the output of running command `cargo run -- integer-to-roman -i 514` is `DXIV`. 
+> Run `cargo run -- -- longest-parlindromic-substring -i [s]` to get the longest palidromic substring of the input string [s]. `s` is `String` type; e.g. the output of running command `cargo run -- integer-to-roman -i babadba` is `bab`, and the output of running command `cargo run -- integer-to-roman -i asdwfesddsfsdsdsdsdsdsgvqwerwqsdfsadas` is `sdsdsdsdsds`. 
