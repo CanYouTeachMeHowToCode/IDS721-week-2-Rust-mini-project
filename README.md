@@ -14,3 +14,10 @@ A Integer-to-Roman-Integer converter that takes in an Integer and return a Roman
 
 ### Usage
 > Run `cargo run -- integer-to-roman -i [num]` to get the Roman Integer representation of the input number [num]. `num` is `i32` type; e.g. the output of running command `cargo run -- integer-to-roman -i 19` is `XIX`, and the output of running command `cargo run -- integer-to-roman -i 514` is `DXIV`. 
+
+## Week 4
+
+A Integer-to-Roman-Integer converter that takes in an Integer and return a Roman Integer (e.g. it will convert 19 to 'XIX')
+
+### Usage
+> Run `cargo run -- integer-to-roman -i [num]` to get the Roman Integer representation of the input number [num]. `num` is `i32` type; e.g. the output of running command `cargo run -- integer-to-roman -i 19` is `XIX`, and the output of running command `cargo run -- integer-to-roman -i 514` is `DXIV`. 
