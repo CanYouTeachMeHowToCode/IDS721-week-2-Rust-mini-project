@@ -25,7 +25,7 @@ fn main() {
     let args = Cli::parse();
     match args.command {
         Some(Commands::IntegerToRoman { input }) => {
-            let res = project::int_to_roman(input);
+            let res = week3::int_to_roman(input);
             println!("{res}");
         }
         None => {

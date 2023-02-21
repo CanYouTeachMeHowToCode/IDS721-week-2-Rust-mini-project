@@ -1,1 +1,1 @@
-/workspaces/IDS721-weekly-Rust-mini-project/week4/target/debug/libweek4.rlib: /workspaces/IDS721-weekly-Rust-mini-project/week4/src/lib.rs
+/Users/wuyilun/Desktop/IDS721-weekly-Rust-mini-project/week4/target/debug/libweek4.rlib: /Users/wuyilun/Desktop/IDS721-weekly-Rust-mini-project/week4/src/lib.rs

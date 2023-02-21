@@ -25,7 +25,7 @@ fn main() {
     let args = Cli::parse();
     match args.command {
         Some(Commands::BasicCalculator { input }) => {
-            let res = project::calculate(input);
+            let res = week2::calculate(input);
             println!("{res}");
         }
         None => {

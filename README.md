@@ -20,4 +20,31 @@ A Integer-to-Roman-Integer converter that takes in an Integer and return a Roman
 A longest palidromic substring finder that takes in an string and returns its longest substring such that the substring is also a palindrome. 
 
 ### Usage
-> Run `cargo run -- -- longest-parlindromic-substring -i [s]` to get the longest palidromic substring of the input string [s]. `s` is `String` type; e.g. the output of running command `cargo run -- integer-to-roman -i babadba` is `bab`, and the output of running command `cargo run -- integer-to-roman -i asdwfesddsfsdsdsdsdsdsgvqwerwqsdfsadas` is `sdsdsdsdsds`. 
+> Run `cargo run -- longest-parlindromic-substring -i [s]` to get the longest palidromic substring of the input string [s]. `s` is `String` type; e.g. the output of running command `cargo run -- longest-parlindromic-substring -i "babadba"` is `bab`, and the output of running command `cargo run -- longest-parlindromic-substring -i "asdwfesddsfsdsdsdsdsdsgvqwerwqsdfsadas"` is `sdsdsdsdsds`. 
+
+## Week 5
+
+An IP address restorer that takes in a string and return all possible valid IP addresses (in standard format, e.g. 245.255.255.255)
+
+### Usage
+> Run `cargo run -- restore-ip-addresses -i [s]` to get the all possible restored IP addresses of the input string [s]. `s` is `String` type; e.g. the output of running command `cargo run -- restore-ip-addresses -i "25525511135"` is 
+```
+[
+    "255.255.11.135",
+    "255.255.111.35",
+]
+```
+> , and the output of running command `cargo run -- restore-ip-addresses -i "1010238"` is 
+```
+[
+    "1.0.10.238",
+    "1.0.102.38",
+    "10.102.3.8",
+    "10.10.2.38",
+    "10.10.23.8",
+    "10.1.0.238",
+    "101.0.2.38",
+    "101.0.23.8",
+]
+```
+> ; if the input string is unable to form any valid IP addresses, it will return an empty list `[]`.
