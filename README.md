@@ -48,3 +48,12 @@ An IP address restorer that takes in a string and return all possible valid IP a
 ]
 ```
 > ; if the input string is unable to form any valid IP addresses, it will return an empty list `[]`.
+
+## Week 6
+
+An Excel sheet column title converter that takes in a column title in string format and return its corresponding column number (e.g. "A" -> 1, "C" -> 3, "Z" -> 26, "AA" -> 27, "ASD" -> 1174)
+
+### Usage
+> Run `cargo run -- convert-title-to-num -i [title]` to get the  corresponding column number for input title string `title`. `title` is `String` type; e.g. the output of running command `cargo run -- convert-title-to-num -i "AA"` is `27` and the output of running command `cargo run -- convert-title-to-num -i "ASD"` is `1174`
+
+> Note that the input string `title` will be automatically converted to upper case in order to align with the Excel column title format. For instance, the outputs of running command `cargo run -- convert-title-to-num -i "ASD"` and `cargo run -- convert-title-to-num -i "asd"` are both `1174`.

@@ -1,11 +1,11 @@
-/* Command-line interface for Longest IP Address Restorer */
+/* Command-line interface for IP Address Restorer */
 use clap::Parser;
 
 #[derive(Parser)]
 #[clap(
     version = "1.0",
     author = "Yilun Wu",
-    about = "Command-line interface for Longest IP Address Restorer"
+    about = "Command-line interface for IP Address Restorer"
 )]
 struct Cli {
     #[clap(subcommand)]
