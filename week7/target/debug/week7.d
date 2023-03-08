@@ -1,0 +1,1 @@
+/Users/wuyilun/Desktop/IDS721-weekly-Rust-mini-project/week7/target/debug/week7: /Users/wuyilun/Desktop/IDS721-weekly-Rust-mini-project/week7/src/lib.rs /Users/wuyilun/Desktop/IDS721-weekly-Rust-mini-project/week7/src/main.rs

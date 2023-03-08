@@ -57,3 +57,17 @@ An Excel sheet column title converter that takes in a column title in string for
 > Run `cargo run -- convert-title-to-num -i [title]` to get the  corresponding column number for input title string `title`. `title` is `String` type; e.g. the output of running command `cargo run -- convert-title-to-num -i "AA"` is `27` and the output of running command `cargo run -- convert-title-to-num -i "ASD"` is `1174`
 
 > Note that the input string `title` will be automatically converted to upper case in order to align with the Excel column title format. For instance, the outputs of running command `cargo run -- convert-title-to-num -i "ASD"` and `cargo run -- convert-title-to-num -i "asd"` are both `1174`.
+
+## Week 7
+
+An anagram generator that takes in a string return all of its possible anagrams in lexicographical order. An **Anagram** is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+### Usage
+> Run `cargo run -- find-anagrams -i [s]` to get the anagrams of `s`. `s` is `String` type; e.g. the output of running command `cargo run -- find-anagrams -i "race"` is 
+```
+["rsut", "rtsu", "rust", "ruts", "srut", "stru", "trsu", "tsru", "turs", "urst", "urts", "utrs"]
+```
+> and the output of running command `cargo run -- find-anagrams -i "python"` is 
+```
+["hnoytp", "hnptyo", "hntoyp", "hnypto", "hnytop", "hontyp", "honytp", "hotpyn", "hoytpn", "hpotyn", "hptyon", "hpynto", "hpytno", "htnoyp", "htnpyo", "htnyop", "htopyn", "htoypn", "htpoyn", "htpyon", "htynpo", "htyonp", "htyopn", "htypno", "htypon", "hynotp", "hyntpo", "hyotnp", "hypnto", "hypton", "hytopn", "hytpno", "nhoytp", "nhptyo", "nhtoyp", "nhypto", "nhytop", "nohtyp", "noptyh", "nothyp", "notyph", "noyhtp", "noypth", "nphtyo", "npoyth", "npthyo", "npytoh", "nthpyo", "nthyop", "ntohyp", "ntopyh", "ntoyph", "ntpyoh", "ntyhpo", "nyhotp", "nyhpto", "nyhtop", "nyhtpo", "nyohtp", "nyopth", "nyotph", "nyphto", "nythop", "nythpo", "ohntyp", "ohnytp", "ohtpyn", "ohytpn", "onhtyp", "onptyh", "onthyp", "ontyph", "onyhtp", "onypth", "ophtyn", "opntyh", "opnyth", "opthyn", "optnyh", "optyhn", "opynth", "opythn", "othypn", "otnpyh", "otphyn", "otpyhn", "otyhnp", "otynph", "otyphn", "oyhtnp", "oyhtpn", "oyntph", "oypnth", "oypthn", "oythnp", "oythpn", "oytnph", "oytphn", "photyn", "phtyon", "phynto", "phytno", "pnhtyo", "pnoyth", "pnthyo", "pnytoh", "pohtyn", "pontyh", "ponyth", "pothyn", "potnyh", "potyhn", "poynth", "poythn", "pthoyn", "ptnhyo", "ptnyoh", "ptonyh", "ptoyhn", "ptyhon", "ptyohn", "pyhtno", "pyhton", "pynhto", "pyntoh", "pyothn", "pythno", "python", "pytnoh", "pytohn", "thnoyp", "thnpyo", "thnyop", "thopyn", "thoypn", "thpoyn", "thpyon", "thynpo", "thyonp", "thyopn", "thypno", "thypon", "tnhpyo", "tnhyop", "tnohyp", "tnopyh", "tnoyph", "tnpyoh", "tnyhpo", "tohypn", "tonpyh", "tophyn", "topyhn", "toyhnp", "toynph", "toyphn", "tphoyn", "tpnhyo", "tpnyoh", "tponyh", "tpoyhn", "tpyhon", "tpyohn", "tyhnpo", "tyhonp", "tyhpon", "tynhop", "tyohpn", "tyophn", "typhno", "typnoh", "typohn", "yhnotp", "yhntpo", "yhotnp", "yhpnto", "yhpton", "yhtopn", "yhtpno", "ynhotp", "ynhpto", "ynhtop", "ynhtpo", "ynohtp", "ynopth", "ynotph", "ynphto", "ynthop", "ynthpo", "yohtnp", "yohtpn", "yontph", "yopnth", "yopthn", "yothnp", "yothpn", "yotnph", "yotphn", "yphtno", "yphton", "ypnhto", "ypntoh", "ypothn", "ypthno", "ypthon", "yptnoh", "yptohn", "ythnpo", "ythonp", "ythpon", "ytnhop", "ytohpn", "ytophn", "ytphno", "ytpnoh", "ytpohn"]
+```
