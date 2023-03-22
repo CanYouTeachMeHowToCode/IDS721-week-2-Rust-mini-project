@@ -74,7 +74,7 @@ An anagram generator that takes in a string return all of its possible anagrams 
 
 ## Week 8
 
-An Strobogrammatic Number determiner that checks if the input number is a **Strobogrammatic Number** or not. A **Strobogrammatic Number** is s a number that looks the same when rotated 180 degrees (looked at upside down), such as `69`, `18081`, `88`, etc. (After rotating 180 degrees, `0`, `1`, `8` looks the same, `6` looks like `9` and vice versa.)
+A Strobogrammatic Number determiner that checks if the input number is a **Strobogrammatic Number** or not. A **Strobogrammatic Number** is s a number that looks the same when rotated 180 degrees (looked at upside down), such as `69`, `18081`, `88`, etc. (After rotating 180 degrees, `0`, `1`, `8` looks the same, `6` looks like `9` and vice versa.)
 
 ### Usage
 > Run `cargo run -- check-strobogrammatic -i [n]` to get whether or not the input number [n] is strobogrammatic. `n` is `String` type; e.g. the output of running command `cargo run -- check-strobogrammatic -i 18081` is `True`, and `cargo run -- check-strobogrammatic -i 696` is `False`.
