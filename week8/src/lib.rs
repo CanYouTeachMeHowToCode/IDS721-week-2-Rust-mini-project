@@ -1,4 +1,4 @@
-/* library for Anagram Finder */
+/* library for Strobogrammatic Number Determiner */
 
 /* build a function that check if a input number is a strobogrammatic number */
 
