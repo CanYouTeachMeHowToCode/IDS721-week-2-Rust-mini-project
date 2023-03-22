@@ -1,11 +1,11 @@
-/* Command-line interface for EXCEL Title Converter */
+/* Command-line interface for Anagram Finder */
 use clap::Parser;
 
 #[derive(Parser)]
 #[clap(
     version = "1.0",
     author = "Yilun Wu",
-    about = "Command-line interface for EXCEL Title Converter"
+    about = "Command-line interface for Anagram Finder"
 )]
 struct Cli {
     #[clap(subcommand)]
