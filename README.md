@@ -113,3 +113,19 @@ An invalid parentheses remover that removes the minimum number of invalid parent
 ]
 ```
 > and the output of running command `cargo run -- remove-invalid-parentheses -i "("` is `[""]`
+
+## Week 11
+
+An Unix path simplifier that converts an input **absolute path** `s` to a file/directory in a Unix-style file system to the simplified **canonical path**.
+
+In a Unix-style file system, a period '.' refers to the current directory, a double period '..' refers to the directory up a level, and any multiple consecutive slashes (i.e. '//') are treated as a single slash '/'. 
+
+The **canonical path** should have the following format:
+
+- The path starts with a single slash '/'.
+- Any two directories are separated by a single slash '/'.
+- The path does not end with a trailing '/'.
+- The path only contains the directories on the path from the root directory to the target file or directory (i.e., no period '.' or double period '..')
+
+### Usage
+> Run `cargo run -- remove-invalid-parentheses -i "()(Python))((Rust))))"` to get all the valid results after removal of minimum number of invalid parentheses; `s` is `String` type; e.g. the output of running command `cargo run -- simplify-path -i "home///user/yilunwu//"` is `"/home/user/yilunwu"` and the output of running command `cargo run -- simplify-path -i "/home/rust/../python/././PyTorch/../HuggingFace"` is `"/home/python/HuggingFace"`
